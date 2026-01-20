@@ -1,0 +1,10 @@
+import pandas as pd
+
+carros= {
+    'id_carros':[100,101],#chave primaria, identificação unica
+    'modelo':['Fiat','BMW'], #string(tem que colocar aspas)
+    'ano':[2025,2025],#inteiro
+    'eletrico':[True,True] #boleano, é sim ou nao, liga ou desliga, verdade ou mentira
+}
+tabela=pd.DataFrame(carros)
+tabela
